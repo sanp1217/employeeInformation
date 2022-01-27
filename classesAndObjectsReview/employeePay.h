@@ -22,5 +22,16 @@ public:
 	//except basePay as parameters
 	employeePay(string firstName, string lastName, int ID, double payRate, double calcPay);
 	
+	//getters and setters
+	int getID();
+	void setID(int ID);
+
+	double getPayRate();
+	void setPayRate(double payRate);
+
+	double getCalcPay();
+	double setCalcPay(double calcPay);
+
+
 };
 
