@@ -30,7 +30,7 @@ public:
 	void setPayRate(double payRate);
 
 	double getCalcPay();
-	double setCalcPay(double calcPay);
+	void setCalcPay(double calcPay);
 
 
 };

@@ -23,3 +23,29 @@ employeePay::employeePay(string firstName, string lastName, int ID, double payRa
 	this->payRate = payRate;
 	this->calcPay = calcPay;
 }
+
+//getters and setters
+int employeePay::getID() {
+	return ID;
+}
+
+void employeePay::setID(int ID) {
+	this->ID = ID;
+}
+
+double employeePay::getPayRate() {
+	return payRate;
+}
+
+void employeePay::setPayRate(double payRate) {
+	this->payRate = payRate;
+}
+
+double employeePay::getCalcPay() {
+	return calcPay;
+}
+
+void employeePay::setCalcPay(double calcPay) {
+	this->calcPay = calcPay;
+}
+
