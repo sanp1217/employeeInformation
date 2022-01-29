@@ -1,12 +1,8 @@
 #include "employeePay.h"
 # include <cstdlib>
-# include <iostream>
 # include <string>
-# include <vector>
-#include <fstream>
 using namespace std;
-
-//sets all variables to empty/0.
+//Default constructor sets all variables to empty/0.
 employeePay::employeePay() {
 	this->firstName = " ";
 	this->lastName = " ";

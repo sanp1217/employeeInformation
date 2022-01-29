@@ -1,6 +1,7 @@
 #pragma once
 # include <string>
-
+# include <cstdlib>
+using namespace std;
 class employeePay
 {
 private:
@@ -8,7 +9,8 @@ private:
 	//with ID number, a basepay that will be 
 	//15,000 for each employee, the payrate that
 	//will be assigned and calculated pay.
-	string firstName, lastName;
+	string firstName;
+	string lastName;
 	int ID;
 	const int basePay = 15000;
 	double payRate;
