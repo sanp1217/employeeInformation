@@ -2,8 +2,19 @@
 #include <string>
 #include <vector>
 #include <iostream>
+#include <iomanip>
 #include <fstream>
+#include <stdlib.h>
 using namespace std;
+
+double assingRandomPayRate() {
+	double random = (rand() % 10) * 0.1;
+	while (random == 0) {
+		random = (rand() % 10) * 0.1;
+	}
+	return random;
+}
+
 int main() {
 	//firstName, lastName and ID will be used
 	//to get the needed values from the text file.
@@ -15,19 +26,15 @@ int main() {
 	vector<string> firstNames;
 	vector<string> lastNames;
 	vector<int> IDs;
+	vector<employeePay> employees;
 
 	//Opening the file to read from
 	fstream readFile;
 	readFile.open("employeeNames.txt", ios::in);
 
+	
 
+	
 
-
-
-
-
-
-
-
-
+	
 }

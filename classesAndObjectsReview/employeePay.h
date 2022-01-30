@@ -34,6 +34,8 @@ public:
 	double getCalcPay();
 	void setCalcPay(double calcPay);
 
+	int getBasePay();
+
 
 };
 

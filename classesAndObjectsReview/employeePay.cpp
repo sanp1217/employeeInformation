@@ -45,3 +45,7 @@ void employeePay::setCalcPay(double calcPay) {
 	this->calcPay = calcPay;
 }
 
+int employeePay::getBasePay() {
+	return basePay;
+}
+
