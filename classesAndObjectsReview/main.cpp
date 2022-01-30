@@ -43,6 +43,9 @@ int main() {
 			readFile >> ID;
 			IDs.push_back(ID);
 
+			employeePay employee(firstNames[i], lastNames[i], IDs[i], assingRandomPayRate(), 0);
+			employees.push_back(employee);
+			employees[i].setCalcPay((1 + employees[i].getPayRate()) * employees[i].getBasePay());
 		}
 		readFile.close();
 	}
