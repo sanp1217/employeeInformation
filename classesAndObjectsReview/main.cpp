@@ -32,7 +32,20 @@ int main() {
 	fstream readFile;
 	readFile.open("employeeNames.txt", ios::in);
 
-	
+	if (readFile.is_open()) {
+		for (int i = 0; i < 25; i++) {
+			readFile >> firstName;
+			firstNames.push_back(firstName);
+
+			readFile >> lastName;
+			lastNames.push_back(lastName);
+
+			readFile >> ID;
+			IDs.push_back(ID);
+
+		}
+		readFile.close();
+	}
 
 	
 
