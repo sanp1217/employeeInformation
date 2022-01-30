@@ -20,7 +20,7 @@ int main() {
 	//firstName, lastName and ID will be used
 	//to get the needed values from the text file.
 	//they will be put into vectors one at a time
-	//each loop.
+	//each loop as they are retrieved from the file.
 	string firstName;
 	string lastName;
 	int ID = 0;
